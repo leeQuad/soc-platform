@@ -1,0 +1,20 @@
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node / frontend
+node_modules/
+dist/
+
+# Database files created during testing
+backend/hashes.json
+
+# OS
+.DS_Store
